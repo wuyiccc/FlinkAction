@@ -21,6 +21,7 @@ public class StreamWordCount {
                 .keyBy(0)
                 .timeWindow(Time.seconds(10))
                 .sum(1);
+        System.out.println(env.getExecutionPlan());
         result.print();
         // 流式数据时, flink是懒加载的, 所以此时必须调用execute方法才可以执行
         env.execute();
