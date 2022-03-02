@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.flinkaction.transformations;
+package com.wuyiccc.bigdata.flinkaction.transformations.map;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.DataSet;
