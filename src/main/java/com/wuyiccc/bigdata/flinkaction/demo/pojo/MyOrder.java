@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.pojo;
+package com.wuyiccc.bigdata.flinkaction.demo.pojo;
 
 /**
  * @author wuyiccc

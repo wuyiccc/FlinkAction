@@ -1,7 +1,7 @@
 package com.wuyiccc.bigdata.flinkaction.demo;
 
-import com.wuyiccc.bigdata.utils.Splitter;
-import com.wuyiccc.bigdata.utils.source.MySource;
+import com.wuyiccc.bigdata.flinkaction.demo.utils.Splitter;
+import com.wuyiccc.bigdata.flinkaction.demo.utils.source.MySource;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

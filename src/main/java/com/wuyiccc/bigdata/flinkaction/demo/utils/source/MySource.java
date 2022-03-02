@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.utils.source;
+package com.wuyiccc.bigdata.flinkaction.demo.utils.source;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 

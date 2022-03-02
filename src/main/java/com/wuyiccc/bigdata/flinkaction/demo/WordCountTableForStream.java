@@ -1,6 +1,6 @@
 package com.wuyiccc.bigdata.flinkaction.demo;
 
-import com.wuyiccc.bigdata.utils.source.MySource;
+import com.wuyiccc.bigdata.flinkaction.demo.utils.source.MySource;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.EnvironmentSettings;

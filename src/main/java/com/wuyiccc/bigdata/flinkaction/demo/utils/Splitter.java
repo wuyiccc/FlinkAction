@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.utils;
+package com.wuyiccc.bigdata.flinkaction.demo.utils;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;

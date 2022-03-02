@@ -1,12 +1,11 @@
 package com.wuyiccc.bigdata.flinkaction.demo;
 
-import com.wuyiccc.bigdata.pojo.MyOrder;
+import com.wuyiccc.bigdata.flinkaction.demo.pojo.MyOrder;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.BatchTableEnvironment;
 import org.apache.flink.types.Row;
-import scala.xml.dtd.ElementValidator;
 
 import static org.apache.flink.table.api.Expressions.$;
 

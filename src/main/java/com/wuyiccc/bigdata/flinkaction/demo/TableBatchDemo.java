@@ -1,6 +1,6 @@
 package com.wuyiccc.bigdata.flinkaction.demo;
 
-import com.wuyiccc.bigdata.pojo.MyOrder;
+import com.wuyiccc.bigdata.flinkaction.demo.pojo.MyOrder;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;
