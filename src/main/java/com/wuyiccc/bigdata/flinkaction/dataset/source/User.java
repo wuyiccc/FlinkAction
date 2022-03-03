@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.flinkaction.dataset;
+package com.wuyiccc.bigdata.flinkaction.dataset.source;
 
 /**
  * @author wuyiccc

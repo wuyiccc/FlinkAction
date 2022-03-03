@@ -1,6 +1,5 @@
 package com.wuyiccc.bigdata.flinkaction.dataset.source;
 
-import com.wuyiccc.bigdata.flinkaction.dataset.User;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 
