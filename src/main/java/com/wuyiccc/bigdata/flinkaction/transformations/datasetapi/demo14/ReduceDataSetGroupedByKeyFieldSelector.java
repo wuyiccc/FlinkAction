@@ -10,7 +10,7 @@ import org.apache.flink.api.java.tuple.Tuple3;
  * @date 2022/3/3 20:36
  * 使用键选择器对元组数据进行分组与聚合
  */
-public class ReduceDataSetGroupedByFieldPositionKeys {
+public class ReduceDataSetGroupedByKeyFieldSelector {
 
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
