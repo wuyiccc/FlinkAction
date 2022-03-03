@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.flinkaction.transformations.datasetapi.datastream;
+package com.wuyiccc.bigdata.flinkaction.transformations.datastream;
 
 import org.apache.flink.streaming.api.collector.selector.OutputSelector;
 import org.apache.flink.streaming.api.datastream.DataStream;

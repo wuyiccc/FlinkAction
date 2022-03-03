@@ -1,4 +1,4 @@
-package com.wuyiccc.bigdata.flinkaction.transformations.datasetapi.datastream;
+package com.wuyiccc.bigdata.flinkaction.transformations.datastream;
 
 import org.apache.flink.api.java.tuple.Tuple1;
 import org.apache.flink.api.java.tuple.Tuple2;
