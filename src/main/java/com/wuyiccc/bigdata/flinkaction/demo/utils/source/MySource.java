@@ -31,6 +31,7 @@ public class MySource implements SourceFunction<String> {
         while (isRunning) {
             int i = new Random().nextInt(size);
             ctx.collect(stringList.get(i));
+            System.out.println("Source:"+stringList.get(i));
             TimeUnit.SECONDS.sleep(1);
         }
     }
