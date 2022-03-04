@@ -9,10 +9,10 @@ import org.apache.flink.streaming.api.windowing.time.Time;
 
 /**
  * @author wuyiccc
- * @date 2022/3/5 0:16
- * 实现滚动时间窗口
+ * @date 2022/3/5 0:35
+ * 实现滑动时间窗口
  */
-public class TumblingTimeWindowDemo {
+public class SlidingWindowDemo {
 
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
@@ -20,9 +20,8 @@ public class TumblingTimeWindowDemo {
         DataStream<Tuple2<String, Integer>> output = input
                 .flatMap(new Splitter())
                 .keyBy(0)
-                // 时间窗口
-                .timeWindow(Time.seconds(3))
-                // 求和
+                // 指定窗口时间大小和滑动窗口时间
+                .timeWindow(Time.seconds(3), Time.seconds(1))
                 .sum(1);
 
         output.print("window");
