@@ -88,6 +88,12 @@
             <version>1.11.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba.ververica</groupId>
+            <artifactId>flink-connector-mysql-cdc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
 
 
     </dependencies>
