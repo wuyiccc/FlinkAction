@@ -26,6 +26,7 @@ public class MyKafkaConsumer {
         DataStream<String> stream = env
                 .addSource(consumer);
 
+        //1
         stream.print();
         env.execute();
 
