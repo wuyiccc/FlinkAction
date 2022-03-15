@@ -25,6 +25,7 @@ public class MyKafkaConsumer {
         consumer.setStartFromGroupOffsets(); // 默认的方法*/
         DataStream<String> stream = env
                 .addSource(consumer);
+
         stream.print();
         env.execute();
 
